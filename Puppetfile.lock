@@ -1,0 +1,20 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-apache (1.2.0)
+      puppetlabs-concat (>= 1.1.1)
+      puppetlabs-stdlib (>= 2.4.0)
+    puppetlabs-concat (1.1.2)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-firewall (1.2.0)
+    puppetlabs-stdlib (4.4.0)
+    rodjek-logrotate (1.1.1)
+    spiette-selinux (0.5.4)
+
+DEPENDENCIES
+  puppetlabs-apache (~> 1.2.0)
+  puppetlabs-firewall (~> 1.2.0)
+  puppetlabs-stdlib (~> 4.4.0)
+  rodjek-logrotate (~> 1.1.0)
+  spiette-selinux (>= 0)
+

@@ -1,0 +1,11 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: '%{hieradata_dir}'
+:hierarchy:
+  # for actual servers(virtual or physical)
+  - "node/%{::fqdn}"
+  # for packer to create docker images
+  - "image/%{::image}"
+  - common

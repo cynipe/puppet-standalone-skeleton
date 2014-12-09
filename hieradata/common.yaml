@@ -1,0 +1,9 @@
+---
+selinux::mode: 'permissive'
+firewall::ensure: 'stopped'
+
+apache::default_vhost: false
+apache::server_tokens: 'Prod'
+apache::server_signature: 'Off'
+apache::trace_enable: 'Off'
+apache::manage_user: false

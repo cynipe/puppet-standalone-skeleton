@@ -1,0 +1,12 @@
+---
+classes:
+  - profile::vhosts
+
+apache_ext::vhost:
+  'vhost1':
+    servername: '%{::fqdn}'
+
+  'vhost2':
+    port: 80
+
+
